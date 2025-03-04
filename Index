@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Cannabis Consortium - Wireframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            background: #1abc9c;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        .section {
+            padding: 30px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Medical Cannabis Consortium</h1>
+    </header>
+    <nav>
+        <a href="#search">Search Conditions</a>
+        <a href="#research">Research Database</a>
+        <a href="#doctors">Doctor Network</a>
+        <a href="#study">Join Study</a>
+        <a href="#resources">Resources</a>
+    </nav>
+    <div class="hero">
+        <h2>Learn About Medical Cannabis</h2>
+        <p>Find studies, connect with doctors, and join research programs</p>
+    </div>
+    <div class="container">
+        <div id="search" class="section">
+            <h3>Search by Condition</h3>
+            <p>Find studies and cannabis treatments for specific illnesses.</p>
+        </div>
+        <div id="research" class="section">
+            <h3>Medical Research & Studies</h3>
+            <p>Explore peer-reviewed studies and cannabis research.</p>
+        </div>
+        <div id="doctors" class="section">
+            <h3>Find a Doctor</h3>
+            <p>Connect with specialists who provide cannabis treatments.</p>
+        </div>
+        <div id="study" class="section">
+            <h3>Join a Cannabis Study</h3>
+            <p>Register to track your condition and contribute to cannabis research.</p>
+        </div>
+        <div id="resources" class="section">
+            <h3>Educational Resources</h3>
+            <p>Articles, FAQs, and blogs on medical cannabis.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Medical Cannabis Consortium</p>
+    </footer>
+</body>
+</html>
